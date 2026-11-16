@@ -1,0 +1,36 @@
+# Environment & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+learnings.md
+
+# Large Model weights (downloaded via python download_models.py)
+models/*.onnx
+!models/.gitkeep
+
+# Data & Biometric files
+data/known_faces/
+data/test_images/
+data/exports/
+data/*.db
+data/*.sqlite
+data/*.csv
+data/.matplotlib/
+!data/.gitkeep
+
+# Frontend dependencies and local logs
+frontend/node_modules/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# OS specific
+Thumbs.db
+.DS_Store
